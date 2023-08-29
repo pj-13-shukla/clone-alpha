@@ -1,0 +1,308 @@
+body{
+    font-family: 'Source Sans 3', sans-serif;
+    background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 685px;
+    background-color: #f5f5f5;
+}
+/* HeaderSection CSS starts here */
+#HeaderSection{
+    width: 100%;
+    color: white;
+    margin-top: 18px;
+}
+#LogoDiv{
+    width: 30%;
+    display: inline;
+}
+#LogoDiv h1{
+    display: inline;
+    font-size: 17px;
+    margin-left: 18px;
+}
+#LogoDiv h1 span{
+    font-weight: lighter;
+}
+#OptionDiv{
+    width: 69%;
+    display: inline;
+}
+#OptionDiv ul{
+    display: inline;
+    position: absolute;
+    right: 10px;
+    top: 9px;
+    
+}
+#OptionDiv ul li{
+    display: inline;
+    margin-right: 46px;
+}
+#SignUp{
+    border: 3px solid white;
+    padding: 5px 18px;
+    border-radius: 6px;
+}
+
+
+/* HeaderSection CSS ends here */
+
+/* BodySection CSS starts here  */
+
+#BodySection{
+    color: white;
+    text-align: center;
+    margin-top: 120px;
+}
+
+#BodySection h1{
+    font-size: 50px;
+    font-weight: 100;
+}
+
+#BodySection p{
+    font-size: 21px;
+}
+
+#BodySection ul li{
+    display: inline;
+}
+
+#BodySection ul{
+    display: inline;
+    position: absolute;
+    margin-top: 29px;
+    margin-left: -226px;
+}
+
+#BodySignUp {
+    color: grey;
+    background: white;
+    border: 3px solid white;
+    margin-right: 18px;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: 800;
+    padding: 9px 60px;
+}
+
+#LearnMore {
+    border: 1px solid white;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 9px 60px;
+}
+
+
+
+
+/* BodySection CSS ends here  */
+
+/* DescripSection CSS Starts Here */
+
+#DescripSection {
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 150px ;
+    border-radius: 6px;
+    text-align: center;
+
+}
+
+#DescripSection h1{
+    font-size: 40px;
+    font-weight: 100;
+    padding-top: 47px;
+    border-top: 1px solid #747474;
+}
+
+#DescripSection p{
+    font-size: 20px;
+    padding-top: 47px;
+    border-top: 1px solid #747474;
+}
+
+#DescripSection img{
+    width: 100%;
+    margin-top: 60px;
+    border-radius: 6px;
+}
+
+
+
+
+/* DescripSection CSS ends Here */
+
+/* IconSection CSS Starts Here */
+
+#IconSection {
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+#IconSection div{
+    width: 49%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 70px;
+}
+
+#IconSection h1{
+    font-weight: 550;
+}
+
+#IconSection p{
+    line-height: 28px;
+}
+
+#IconSection div i{
+    font-size: 30px;
+    color: white;
+    border-radius: 100%
+}
+#IconDiv1{
+    border-right: 1px solid #999;
+}
+#IconDiv3{
+    border-right: 1px solid #999;
+    border-top : 1px solid #999
+}
+#IconDiv4{
+    /* border-right: 1px solid #747474; */
+    border-top : 1px solid #999
+}
+
+#Bolt{
+    background-color: #e89980;
+    padding: 30px 40px;
+}
+#AreaChart{
+    background-color: #7fcdb8;
+    padding: 30px 30px;
+}
+#Cloud{
+    background-color: #90b0ba;
+    padding: 30px 30px;
+}
+#Lock{
+    background-color: #e5cb95;
+    padding: 30px 40px;
+}
+
+/* IconSection Ends here  */
+
+/* NatureSection Starts here  */
+#NatureSection{
+    width: 70%;
+    margin: 0 auto;
+    
+    
+    margin-top: 40px;
+    border-radius: 4px;
+    
+}
+ #NatureSection div{
+        width: 47.5%;
+        display: inline-block;
+        text-align: center;
+        border-radius: 4px;
+        color: #999;
+        background-color: white;
+    } 
+ #NatureSection div img{
+    width: 100%;
+    border-radius: 4px 4px 4px 4px;
+    
+} 
+ #NatureSection div h1{
+    margin-top: 49px;
+    font-weight: 100;
+    font-size: 30px;
+} 
+#NatureSection div p{
+    line-height: 26px;
+
+}
+#NatureSection div a{
+border: 2px solid #999;
+padding: 6px 12px;
+border-radius: 4px;
+text-decoration: none;
+
+}
+#NatureDiv2{
+    margin-left: 42px;
+    padding-bottom: 64px;
+} 
+#NatureDiv1{
+    padding-bottom: 64px;
+}
+#NatureDiv2 a{
+    padding-bottom: 42px;
+
+}
+
+/* FooterSection CSS Starts here  */
+
+#FooterSection{
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+    
+    padding: 50px;
+}
+#FooterDiv1{
+    background-color: #e89980;
+    padding-bottom: 74px;
+    padding-top: 40px;
+    
+}
+#FooterSection h1{
+      color: #f8e0d0;
+      font-size: 38px;
+      font-weight: 400;
+}
+#FooterSection p{
+    color: #f8e0d0;
+    font-size: 19px
+
+}
+#FooterSection form a{
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 13px 40px;
+    border-radius: 4px;
+    background-color: white;
+    color:#ecb8ad;
+    margin-left: 29px;
+}
+#FooterSection form input{
+    padding: 18px 68px;
+    border-radius: 4px;
+    background-color: #eba893;
+}
+#FooterDiv2{
+    color: #c6c6c6;
+    margin-top: 60px;
+    
+}
+#SocialMedia i{
+    margin-top: 60px;
+    font-size: 35px;
+    margin: 0px 10px;
+}
+#FooterDiv2 li{
+    display: inline;
+}
+#FooterDiv2 div ul li:nth-child(1){
+    border-right: 1px solid #c6c6c6;
+    padding-right: 10px;
+ }
+ #FooterDiv2 div ul li:nth-child(2){
+    border-right: 1px solid #c6c6c6;
+    padding-right: 10px;
+ }
